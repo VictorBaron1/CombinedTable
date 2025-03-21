@@ -3,7 +3,7 @@ public class SingleTable
 private int seats;
 private double quality;
 private int height;
-public SingleTable(s, q, h)
+public SingleTable(int s, double q, int h)
 {
     seats = s;
     quality = q;
@@ -17,17 +17,17 @@ public int getNumSeats()
 /** Returns the height of this table in centimeters. */
 public int getHeight()
 { 
-    
+    return height;
 }
 /** Returns the quality of the view from this table. */
 public double getViewQuality()
 { 
-    
+    return quality;
 }
 /** Sets the quality of the view from this table to value . */
 public void setViewQuality(double value)
 {
-    
+    quality = value;
 }
 // There may be instance variables, constructors, and methods that are not shown.
 }
